@@ -1,0 +1,30 @@
+ - Number of Features: 109
+ - Number of Examples: 10860
+ - List of features: ['TempoInternamentoEmDias', 'SAPSScore', 'Traqueostomia', 'TempoAteAdmissaoUni', 'Corticosteróide', 'Antimalárico', 'Antivírico', 'Anticoagulante', 'Vasopressor', 'Broncodilatador', 'Psicofármaco', 'Opiáceo', 'Relaxante muscular', 'Antibiótico', 'NumPrescricoes', 'DuracaoPrescricoes', 'VMI', 'DispositivosNum', 'DoencaRespiratoriaAntec', 'DiabetesAntec', 'DoencaCirculatoriaAntec', 'NumeroDiagnAntec', 'NumeroDiagn', 'DoencasCronicas', 'PaoFioRatio', 'GlasgowScore', 'PosicaoProne', 'ElectiveAdmission', 'InfectionAdmission', 'Pneumonia', 'Infeção Urinária', 'Bacteriémia', 'Neurológica', 'Abdómen agudo peritonite', 'Traquebronquite', 'Infeção Abdominal', 'Pele e tecidos moles', 'Outra infecção', 'Endocardite', 'Infecção sem foco determinado', 'Outra infecção endovascular', 'Meningite', 'Abcesso intra-abdominal', 'Infeção Neurológica', 'Choque séptico', 'Agudização DPCO', 'Sépsis', 'Peritonite', 'Peritonite secundárial', 'Infeção da Pele e tecidos moles', 'Colonização', 'Infecção VIH', 'Colangite', 'SEPSIS grave', 'Apendicite', 'Abcesso Renal e Peri-renal', 'Infecção de catéter', 'Empiema', 'Abcesso do figado', 'Mediastinite', 'Celulite', 'Fasceíte', 'Pielonefrite', 'Artrite séptica', 'Meningoencefalite', 'Infección por Citomegalovirus (CMV)', 'Encefalite', 'Gastrenterite aguda', 'Peritonite primária', 'Bronquite aguda', 'Abcesso do pulmao', 'Zona', 'Colecistite aguda', 'Infeccao, complicacao de cuidados medicos', 'Respiratório', 'Traqueíte', 'Infecção ferida operatória', 'Broncopneumonia', 'Cardio-vascular', 'Bronquiolite', 'Abcesso da retrofaringe', 'Miocardite', 'Sepsis do recem-nascido', 'Sistémica', 'Sistema nervoso central', 'Laringite', 'InfectionsNumber', 'SepsisChoque', 'FC_enf', 'FR_enf', 'TAS_enf', 'TAD_enf', 'TAM_enf', 'SpO2_enf', 'HospitalRegiaoId_1', 'HospitalRegiaoId_2', 'HospitalRegiaoId_3', 'HospitalRegiaoId_4', 'HospitalRegiaoId_5', 'HospitalRegiaoId_19', 'HospitalRegiaoId_25', 'HospitalRegiaoId_26', 'TipoProvenienciaId_0', 'TipoProvenienciaId_1', 'TipoProvenienciaId_2', 'TipoProvenienciaId_3', 'TipoProvenienciaId_4', 'TipoProvenienciaId_5', 'TipoProvenienciaId_6', 'TipoProvenienciaId_7']
+
+.....................RESULTS...........................
+
+------Deep Learning------
+R2 List: [0.363, 0.346, 0.447, 0.388, 0.488, 0.381, 0.407, 0.459, 0.482, 0.489]
+R2 (mean+-std): 0.425+-0.052
+MAE List: [5.861, 5.94, 5.681, 5.863, 5.802, 5.84, 5.768, 5.369, 5.906, 5.419]
+MAE (mean+-std): 5.745+-0.189
+RMSE List: [11.313, 11.385, 10.646, 10.925, 9.753, 11.978, 11.013, 9.74, 10.425, 9.147]
+MAE (mean+-std): 10.633+-0.83
+
+------Random Forest------
+R2 List: []
+R2 (mean+-std): 0.515+-0.028
+MAE List: []
+MAE (mean+-std): 5.443+-0.141
+RMSE List: []
+MAE (mean+-std): 9.652+-0.322
+
+------Linear Regression------
+R2 List: []
+R2 (mean+-std): 0.464+-0.03
+MAE List: []
+MAE (mean+-std): 6.053+-0.101
+RMSE List: []
+MAE (mean+-std): 10.147+-0.331
+

@@ -1,0 +1,34 @@
+ - Number of Features: 18
+ - Number of Examples: 6757
+ - List of features: ['Traqueostomia', 'Antimalárico', 'Antivírico', 'Vasopressor', 'Psicofármaco', 'Opiáceo', 'Relaxante muscular', 'NumPrescricoes', 'DuracaoPrescricoes', 'VMI', 'NumeroDiagn', 'SAPSFiO2', 'Cateter venoso periférico', 'Cateter arterial', 'Cateter venoso central', 'Tubo Orotraqueal', 'HospitalRegiaoId_19', 'SAPSDoencasCronicas_4.0']
+
+.....................RESULTS...........................
+
+------Deep Learning------
+R2 List:  [0.629, 0.676, 0.659, 0.496, 0.636, 0.603, 0.618, 0.599, 0.658, 0.485]
+R2 (mean+-std):  0.606 +- 0.062
+MAE List:  [3.677, 3.192, 3.89, 3.71, 3.217, 3.642, 3.153, 3.357, 3.394, 3.297]
+MAE (mean+-std):  3.453 +- 0.244
+RMSE List:  [5.751, 5.906, 6.682, 8.016, 5.548, 6.406, 5.839, 6.445, 5.593, 6.039]
+RMSE (mean+-std):  6.223 +- 0.698
+TOL List:  [59.172, 70.414, 62.722, 66.568, 70.71, 64.645, 71.154, 66.222, 65.037, 72.0]
+TOL (mean+-std):  66.864 +- 3.966
+------Random Forest------
+R2 List:  [0.65, 0.707, 0.644, 0.451, 0.619, 0.591, 0.615, 0.631, 0.65, 0.536]
+R2 (mean+-std):  0.609 +- 0.067
+MAE List:  [3.137, 3.036, 3.738, 3.789, 3.201, 3.574, 3.136, 3.199, 3.235, 3.197]
+MAE (mean+-std):  3.324 +- 0.257
+RMSE List:  [5.581, 5.618, 6.826, 8.367, 5.673, 6.499, 5.864, 6.181, 5.656, 5.732]
+RMSE (mean+-std):  6.2 +- 0.825
+TOL List:  [68.787, 69.675, 64.793, 65.828, 69.379, 67.308, 70.414, 67.556, 67.259, 70.815]
+TOL (mean+-std):  68.181 +- 1.87
+------Linear Regression------
+R2 List:  [0.589, 0.653, 0.606, 0.485, 0.611, 0.547, 0.612, 0.619, 0.617, 0.473]
+R2 (mean+-std):  0.581 +- 0.057
+MAE List:  [3.509, 3.489, 3.949, 4.005, 3.571, 3.924, 3.473, 3.391, 3.626, 3.515]
+MAE (mean+-std):  3.645 +- 0.214
+RMSE List:  [6.053, 6.115, 7.177, 8.105, 5.733, 6.838, 5.886, 6.282, 5.915, 6.11]
+RMSE (mean+-std):  6.421 +- 0.703
+TOL List:  [65.976, 64.349, 63.018, 62.87, 62.722, 61.982, 64.349, 62.667, 62.37, 64.296]
+TOL (mean+-std):  63.46 +- 1.17
+Wall time: 10min 55s

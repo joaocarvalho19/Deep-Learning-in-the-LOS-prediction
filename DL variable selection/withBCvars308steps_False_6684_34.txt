@@ -1,0 +1,21 @@
+
+[0.594, 0.632, 0.631, 0.632, 0.634, 0.627, 0.637, 0.64, 0.643, 0.644, 0.639, 0.633, 0.534]
+[3.795, 3.185, 3.272, 3.032, 3.253, 3.353, 3.075, 3.227, 3.038, 3.116, 3.259, 3.186, 3.926]
+[5.577, 5.309, 5.321, 5.31, 5.293, 5.345, 5.272, 5.251, 5.227, 5.222, 5.262, 5.301, 5.979]
+[57.666, 69.858, 67.614, 72.102, 68.512, 65.819, 71.503, 68.811, 71.354, 69.933, 66.417, 69.185, 56.844]
+[0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96]
+Index(['SAPSScore', 'Traqueostomia', 'TempoAteAdmissaoUni',
+       'Unique_patient_per_Hosp', 'Unique_patient_per_Service', 'Antimalárico',
+       'Vasopressor', 'Psicofármaco', 'Opiáceo', 'Relaxante muscular',
+       'NumPrescricoes', 'DuracaoPrescricoes', 'VMI', 'NumeroDiagn',
+       'DispositivosNum', 'PosicaoProne', 'SAPSFiO2', 'pH_min', 'PaCO2_max',
+       'PaO2_max', 'Cateter venoso periférico', 'Sonda nasogástrica',
+       'Cateter arterial', 'Cateter venoso central', 'Tubo Orotraqueal',
+       'HospitalRegiaoId_19', 'SAPSDoencasCronicas_4.0', 'ServicoId_30',
+       'ServicoId_53', 'ServicoId_59'],
+      dtype='object')
+[0.627, 0.621, 0.599, 0.636, 0.638, 0.636, 0.639, 0.629, 0.642, 0.634, 0.633, 0.633, 0.541]
+[3.367, 3.056, 3.752, 3.183, 3.156, 3.23, 3.126, 3.357, 3.088, 3.312, 3.353, 3.13, 3.737]
+[5.35, 5.387, 5.546, 5.279, 5.267, 5.282, 5.262, 5.334, 5.239, 5.295, 5.303, 5.303, 5.933]
+[66.193, 72.177, 59.013, 70.381, 70.531, 68.886, 70.157, 64.996, 70.307, 66.118, 64.174, 70.082, 60.135]
+[0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96]

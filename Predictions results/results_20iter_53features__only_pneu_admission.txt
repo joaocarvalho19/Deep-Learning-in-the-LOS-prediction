@@ -1,0 +1,30 @@
+ - Number of Features: 53
+ - Number of Examples: 5574
+ - List of features: ['TempoInternamentoEmDias', 'SAPSScore', 'Traqueostomia', 'Corticosteróide', 'Antimalárico', 'Antivírico', 'Anticoagulante', 'Vasopressor', 'Broncodilatador', 'Psicofármaco', 'Opiáceo', 'Relaxante muscular', 'Antibiótico', 'NumPrescricoes', 'DuracaoPrescricoes', 'VMI', 'DispositivosNum', 'DoencaRespiratoriaAntec', 'DiabetesAntec', 'DoencaCirculatoriaAntec', 'NumeroDiagnAntec', 'NumeroDiagn', 'DoencasCronicas', 'PaoFioRatio', 'FC_enf', 'FR_enf', 'TAS_enf', 'TAD_enf', 'TAM_enf', 'SpO2_enf', 'HospitalRegiaoId_1', 'HospitalRegiaoId_2', 'HospitalRegiaoId_3', 'HospitalRegiaoId_4', 'HospitalRegiaoId_5', 'HospitalRegiaoId_19', 'HospitalRegiaoId_26', 'TipoAdmissaoId_2.0', 'TipoAdmissaoId_3.0', 'TipoAdmissaoId_5.0', 'TipoAdmissaoId_7.0', 'TipoAdmissaoId_8.0', 'TipoAdmissaoId_11.0', 'TipoAdmissaoId_13.0', 'TipoAdmissaoId_16.0', 'TipoAdmissaoId_17.0', 'TipoProvenienciaId_0', 'TipoProvenienciaId_1', 'TipoProvenienciaId_2', 'TipoProvenienciaId_3', 'TipoProvenienciaId_4', 'TipoProvenienciaId_5', 'TipoProvenienciaId_6', 'TipoProvenienciaId_7']
+
+.....................RESULTS...........................
+
+------Deep Learning------
+R2 List: [0.492, 0.477, 0.533, 0.454, 0.361, 0.359, 0.444, 0.365, 0.58, 0.446, 0.358, 0.387, 0.156, 0.461, 0.419, 0.339, 0.369, 0.4, 0.437, 0.526]
+R2 (mean+-std): 0.418+-0.089
+MAE List: [4.449, 4.587, 4.203, 5.009, 4.683, 4.811, 4.303, 4.481, 4.715, 4.268, 5.012, 5.143, 5.683, 4.502, 4.849, 4.576, 4.455, 4.683, 4.788, 4.717]
+MAE (mean+-std): 4.696+-0.334
+RMSE List: [8.22, 8.772, 6.734, 9.185, 10.738, 10.497, 9.294, 8.339, 7.401, 8.547, 10.549, 9.503, 10.446, 7.819, 10.288, 9.507, 8.222, 8.874, 9.009, 8.065]
+MAE (mean+-std): 9.0+-1.094
+
+------Random Forest------
+R2 List: [0.562, 0.55, 0.51, 0.51, 0.473, 0.488, 0.523, 0.485, 0.553, 0.457, 0.469, 0.457, 0.569, 0.503, 0.454, 0.495, 0.465, 0.421, 0.444, 0.513]
+R2 (mean+-std): 0.495+-0.041
+MAE List: [4.326, 4.517, 4.256, 4.664, 4.724, 4.794, 4.583, 4.38, 4.609, 4.54, 4.795, 4.694, 4.385, 4.443, 4.835, 4.433, 4.491, 4.523, 4.8, 4.562]
+MAE (mean+-std): 4.568+-0.166
+RMSE List: [7.629, 8.131, 6.899, 8.706, 9.751, 9.382, 8.607, 7.513, 7.631, 8.462, 9.594, 8.946, 7.465, 7.514, 9.972, 8.307, 7.567, 8.716, 8.959, 8.179]
+MAE (mean+-std): 8.396+-0.844
+
+------Linear Regression------
+R2 List: [0.52, 0.54, 0.476, 0.452, 0.417, 0.442, 0.496, 0.432, 0.531, 0.459, 0.419, 0.457, 0.519, 0.501, 0.43, 0.456, 0.454, 0.381, 0.453, 0.506]
+R2 (mean+-std): 0.467+-0.042
+MAE List: [4.752, 4.799, 4.561, 5.035, 5.174, 5.08, 4.805, 4.834, 4.928, 4.733, 5.182, 4.949, 4.797, 4.745, 5.016, 4.822, 4.829, 4.88, 4.908, 4.919]
+MAE (mean+-std): 4.887+-0.151
+RMSE List: [7.99, 8.221, 7.134, 9.207, 10.253, 9.793, 8.849, 7.89, 7.814, 8.447, 10.033, 8.943, 7.885, 7.524, 10.194, 8.626, 7.645, 9.013, 8.885, 8.237]
+MAE (mean+-std): 8.629+-0.896
+

@@ -1,0 +1,30 @@
+ - Number of Features: 20
+ - Number of Examples: 12401
+ - List of features: ['TempoInternamentoEmDias', 'SAPSScore', 'Traqueostomia', 'Antimalárico', 'Antivírico', 'Vasopressor', 'Broncodilatador', 'Psicofármaco', 'Opiáceo', 'Relaxante muscular', 'NumPrescricoes', 'DuracaoPrescricoes', 'VMI', 'DispositivosNum', 'NumeroDiagnAntec', 'NumeroDiagn', 'DoencasCronicas', 'SpO2_enf', 'HospitalRegiaoId_19', 'TipoAdmissaoId_16.0', 'TipoServicoId_3']
+
+.....................RESULTS...........................
+
+------Deep Learning------
+R2 List: [0.407, 0.42, 0.43, 0.5, 0.501, 0.526, 0.502, 0.426, 0.432, 0.47]
+R2 (mean+-std): 0.461+-0.041
+MAE List: [5.773, 5.443, 5.451, 5.951, 5.255, 5.128, 5.841, 5.608, 6.23, 5.243]
+MAE (mean+-std): 5.592+-0.335
+RMSE List: [12.586, 10.24, 11.173, 10.193, 9.715, 9.36, 10.314, 11.11, 10.803, 9.959]
+MAE (mean+-std): 10.545+-0.875
+
+------Random Forest------
+R2 List: [0.434, 0.459, 0.466, 0.544, 0.504, 0.534, 0.509, 0.435, 0.47, 0.454]
+R2 (mean+-std): 0.481+-0.037
+MAE List: [5.939, 5.457, 5.406, 5.338, 5.308, 5.26, 5.462, 5.766, 5.578, 5.535]
+MAE (mean+-std): 5.505+-0.201
+RMSE List: [12.29, 9.887, 10.814, 9.724, 9.689, 9.282, 10.241, 11.024, 10.434, 10.112]
+MAE (mean+-std): 10.35+-0.818
+
+------Linear Regression------
+R2 List: [0.397, 0.435, 0.418, 0.466, 0.441, 0.47, 0.458, 0.436, 0.426, 0.451]
+R2 (mean+-std): 0.44+-0.021
+MAE List: [6.424, 5.984, 6.054, 5.962, 5.923, 5.899, 6.069, 6.143, 6.182, 5.985]
+MAE (mean+-std): 6.062+-0.148
+RMSE List: [12.685, 10.107, 11.286, 10.527, 10.29, 9.905, 10.752, 11.019, 10.857, 10.141]
+MAE (mean+-std): 10.757+-0.766
+
